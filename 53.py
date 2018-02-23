@@ -1,7 +1,7 @@
-a=int(input())
-b=0
-while(a>0):
-    dig=a%10
-    b=b+dig
-    a=a//10
-print(b)
+k=int(input())
+l=0
+while(k>0):
+    dig=k%10
+    l=l+dig
+    k=k//10
+print(l)

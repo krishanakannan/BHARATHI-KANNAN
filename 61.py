@@ -1,3 +1,3 @@
-a=raw_input()
-b=input()
-print(a[:b])
+k=raw_input()
+l=input()
+print(k[:l])

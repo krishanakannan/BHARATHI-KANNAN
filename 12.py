@@ -1,0 +1,11 @@
+a=int(input())
+c=a
+b=0
+while(a>0):
+    n=a%10
+    b=b*10+n
+    a=a//10
+if(c==b):
+    print("Yes")
+else:
+    print("No")

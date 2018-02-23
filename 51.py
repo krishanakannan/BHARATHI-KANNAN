@@ -1,5 +1,5 @@
-x=input()
-b=list(str(x))
-a=0
-for a in range (0,len(b)):
-  print(b[a])
+z=input()
+m=list(str(z))
+k=0
+for k in range (0,len(m)):
+  print(m[k])

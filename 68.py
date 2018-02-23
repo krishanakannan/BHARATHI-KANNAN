@@ -1,5 +1,5 @@
-a=input()
-if(a%7==0):
+k=input()
+if(k%7==0):
     print("Yes")
 else:
     print("No")

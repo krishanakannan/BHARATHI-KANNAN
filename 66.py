@@ -1,7 +1,7 @@
-num = input()
-if num > 1:
-   for i in range(2,num):
-       if (num % i) == 0:
+k = input()
+if k > 1:
+   for i in range(2,k):
+       if (k % i) == 0:
            print("No")
            break
    else:

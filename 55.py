@@ -1,0 +1,9 @@
+k=input()
+l=input()
+v=k*l
+if(v==0):
+     print("NULL")
+elif((v%2)==0):
+     print("even")
+else:
+     print("odd")

@@ -1,10 +1,10 @@
-num = input()
-factorial = 1
-if num < 0:
-   print("Sorry, factorial does not exist for negative numbers")
-elif num == 0:
+a = input()
+b = 1
+if a < 0:
+   print("negative numbers")
+elif a == 0:
    print("1")
 else:
-   for i in range(1,num + 1):
-       factorial = factorial*i
-   print(factorial)
+   for i in range(1,a + 1):
+       b = b*i
+   print(b)

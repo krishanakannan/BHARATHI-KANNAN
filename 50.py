@@ -1,22 +1,22 @@
-def pot(a):
+def pot(k):
 
-    if(a == 0):
+    if(k == 0):
 
         return False
 
-    while (a!=1):
+    while (k!=1):
 
-            if((a%2)!=0):
+            if((k%2)!=0):
 
                 return False
 
-            a=a//2
+            k=k//2
 
     return True
 
-n=input()
+m=input()
 
-if(pot(n)):
+if(pot(m)):
 
     print("yes")
 

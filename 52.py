@@ -1,0 +1,21 @@
+k=input()
+if(k==1):
+    print("ONE")
+elif(k==2):
+    print("TWO")
+elif(k==3):
+    print("THREE")
+elif(k==4):
+    print("FOUR")
+elif(k==5):
+    print("FIVE")
+elif(k==6):
+    print("SIX")
+elif(k==7):
+    print("SEVEN")
+elif(k==8):
+    print("EIGHT")
+elif(k==9):
+    print("NINE")
+else:
+    print("TEN")

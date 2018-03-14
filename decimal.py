@@ -1,6 +1,6 @@
-a=float(input("Enter any decimal value:"))
-if(a<0):
-	b=int(a-0.5)
+c=float(input("Enter any decimal value:"))
+if(c<0):
+	d=int(c-0.5)
 else:
-	b=int(a+0.5)
-print b
+	d=int(c+0.5)
+print d

@@ -3,7 +3,7 @@
 
 int main(void)
 {	
-	int t=0,n,m,i;
+	int k=0,n,m,i;
 	char rom[9];
 	scanf("%s",rom);
 	m=strlen(rom);
@@ -41,8 +41,8 @@ for(i=0;i<m;i=i+2)
 		{
 			n=rom[i+1]+rom[i];
 		}
-		t=n+t;
+		k=n+k;
 }
-printf("%d",t);
+printf("%d",k);
 return 0;
 }

@@ -1,10 +1,10 @@
 sum = 0
 temp = num
 while temp > 0:
-   digit = temp % 10
-   sum += digit ** 3
+   dig = temp % 10
+   sum += dig ** 3
    temp //= 10
 if num == sum:
-   print(num,"is an Armstrong number")
+   print(num,"yes")
 else:
-   print(num,"is not an Armstrong number")
+   print(num,"no")
